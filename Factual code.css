@@ -1,0 +1,193 @@
+.header{
+    display: flex; 
+    justify-content: space-around;
+}
+.borderfirst:hover{
+    color: darkblue;
+}
+.carddiv{
+    border: solid black;
+    width: 31rem;
+    height: 25rem;
+    margin-left: 47rem;
+}
+.heading{
+    text-align: center;
+}
+.headinchalid{
+    opacity: 0.5; 
+    text-align: center;
+}
+.peragraf{
+    color: black;
+    text-align: center;
+}
+.linediv{
+    border-top: 3px solid  rgba(21, 21, 75, 0.966);
+    width: 12rem;
+}
+.buttonmaindiv{
+    margin-left: 65rem;
+    display: flex;
+}
+.findbutton:hover{
+    background-color:  rgba(21, 21, 75, 0.966);
+}
+.findbutton{
+     border: none;
+    height: 3rem;
+    width: 10rem;
+    background-color: red;
+}
+.plusbutton:hover{
+    background-color: red;
+}
+.plusbutton{
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(21, 21, 75, 0.966);
+}
+.bigcard{
+    border: solid none;
+     width: 84rem;
+     height: 20rem;
+    background-color: rgba(21, 21, 75, 0.966);
+}
+.bigcardchalid{
+    margin-left: 20rem;
+}
+.cardmaindiv{
+    border: solid none; 
+    display: flex;
+    justify-content: space-around; 
+    height: 22rem;
+    width: 55rem;
+    margin-top: 4rem;
+    margin-left: 18rem;
+}
+.hammadposter{
+    border: solid none;
+    width: 17rem;
+    height: 21rem;
+}
+.hammadposter:hover{
+    box-shadow: 5px 5px 25px  black;
+}
+.posterimag{
+    width: 16rem;
+     height: 21rem;
+} 
+.jason{
+    text-decoration: none;
+    color: red;
+}
+.thiredlastcard{
+    width: 84rem;
+    height: 25rem;
+    border: solid none;
+    text-align: center;
+    background-color: rgba(151, 146, 146, 0.87);
+}
+.chalidheading{
+    color: rgba(21, 21, 75, 0.966);
+}
+.cardline{
+    background-color: rgba(21, 21, 75, 0.966); 
+    height: 1rem;
+    width: 84rem;
+}
+.lastcard{
+    height: 15rem;
+    width: 35rem;
+    border: solid none;
+    margin-left: 28rem;
+    background-color:  rgba(151, 146, 146, 0.87);
+}
+.lastheading{
+    color:  rgba(21, 21, 75, 0.966);
+    text-align: center;
+}
+.lastpergraf{
+    text-align: center;
+    color: white;
+}
+.linedivtwo{
+    border-top: 1px solid  rgba(21, 21, 75, 0.966); 
+    width: 10rem;
+}
+.lastbutton{
+    border: solid none;
+    display: flex;
+    width: 15rem;
+    margin-left: 20rem;
+}
+.plasbutton:hover{
+    background-color: red;
+}
+.plasbutton{
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color:  rgba(21, 21, 75, 0.966);
+}
+.freebutton:hover{
+    background-color: rgba(21, 21, 75, 0.966);
+}
+.freebutton{
+    border: none;
+    width: 12rem;
+    height: 3rem;
+    background-color:  red;
+    color: white;
+}
+.textdiv{
+    background-color:  rgba(21, 21, 75, 0.966);
+     border: solid none;
+     width: 26rem; 
+     height: 20rem;
+    margin-left: 30rem;
+}
+.headingdiv{
+    text-align: center;
+    color: white;
+}
+.firstnameinput{
+    padding: 7px; 
+    margin-top: 20px; 
+    margin-left: 9px;
+}
+.lastnameinput{
+    padding: 7px; 
+    margin-left: 10px;
+}
+.emailinput{
+    padding: 7px;
+     margin-top: 20px;
+      margin-left: 10px;
+}
+.passwordinput{
+    padding: 7px;
+     margin-top: 20px;
+      margin-left: 10px;
+}
+.confirmpasswordinput{
+    padding: 7px; 
+    margin-top: 20px; 
+    margin-left: 10px;
+}
+.signupbutton:hover{
+    background-color:   rgba(21, 21, 75, 0.966);
+}
+.signupbutton{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: solid none;
+    border-bottom: none;
+    background-color: rgb(9,197,34);
+    color: white;
+    width: 20rem; 
+    height: 3rem; 
+    margin-left: 3rem;
+}
