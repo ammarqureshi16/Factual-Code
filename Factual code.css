@@ -1,147 +1,152 @@
-.header{
-    display: flex; 
-    justify-content: space-around;
+.header {
+  display: flex;
+  justify-content: space-around;
+  border: solid none;
+  background-color: black;
 }
-.borderfirst:hover{
-    color: darkblue;
+.header:hover {
+  background-color: white;
 }
-.carddiv{
-    border: solid black;
-    width: 31rem;
-    height: 25rem;
-    margin-left: 47rem;
+.borderfirst:hover {
+  color: darkblue;
 }
-.heading{
-    text-align: center;
+.carddiv {
+  border: solid none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.headinchalid{
-    opacity: 0.5; 
-    text-align: center;
+.heading {
+  text-align: center;
 }
-.peragraf{
-    color: black;
-    text-align: center;
+.headinchalid {
+  opacity: 0.5;
+  text-align: center;
 }
-.linediv{
-    border-top: 3px solid  rgba(21, 21, 75, 0.966);
-    width: 12rem;
+.peragraf {
+  color: black;
+  text-align: center;
 }
-.buttonmaindiv{
-    margin-left: 65rem;
-    display: flex;
+.linediv {
+  border-top: 3px solid rgba(21, 21, 75, 0.966);
+  width: 35%;
 }
-.findbutton:hover{
-    background-color:  rgba(21, 21, 75, 0.966);
+.buttonmaindiv {
+  margin-left: 45%;
+  display: flex;
 }
-.findbutton{
-     border: none;
-    height: 3rem;
-    width: 10rem;
-    background-color: red;
+.findbutton:hover {
+  background-color: rgba(21, 21, 75, 0.966);
 }
-.plusbutton:hover{
-    background-color: red;
+.findbutton {
+  border: none;
+  height: 3rem;
+  width: 32%;
+  background-color: red;
 }
-.plusbutton{
-    border: none;
-    width: 3rem;
-    height: 3rem;
-    background-color: rgba(21, 21, 75, 0.966);
+.plusbutton:hover {
+  background-color: red;
 }
-.bigcard{
-    border: solid none;
-     width: 84rem;
-     height: 20rem;
-    background-color: rgba(21, 21, 75, 0.966);
+.plusbutton {
+  border: none;
+  width: 5rem;
+  height: 3rem;
+  background-color: rgba(21, 21, 75, 0.966);
 }
-.bigcardchalid{
-    margin-left: 20rem;
+.bigcard {
+  border: solid none;
+  margin-top: 5%;
+  width: 84rem;
+  height: 20rem;
+  background-color: rgba(21, 21, 75, 0.966);
 }
-.cardmaindiv{
-    border: solid none; 
-    display: flex;
-    justify-content: space-around; 
-    height: 22rem;
-    width: 55rem;
-    margin-top: 4rem;
-    margin-left: 18rem;
+.bigcardchalid {
+  margin-left: 10rem;
 }
-.hammadposter{
-    border: solid none;
-    width: 17rem;
-    height: 21rem;
+.cardmaindiv {
+  border: solid none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-left: 9%;
+  height: 19rem;
+  width: 85%;
 }
-.hammadposter:hover{
-    box-shadow: 5px 5px 25px  black;
+.hammadposter {
+  border: solid none;
 }
-.posterimag{
-    width: 16rem;
-     height: 21rem;
-} 
-.jason{
-    text-decoration: none;
-    color: red;
+.posterimag {
+  border: solid none;
+  width: 80%;
+  height: 99%;
 }
-.thiredlastcard{
-    width: 84rem;
-    height: 25rem;
-    border: solid none;
-    text-align: center;
-    background-color: rgba(151, 146, 146, 0.87);
+.jason {
+  text-decoration: none;
+  color: red;
 }
-.chalidheading{
-    color: rgba(21, 21, 75, 0.966);
+.thiredlastcard {
+  width: 84rem;
+  height: 18rem;
+  border: solid none;
+  text-align: center;
+  margin-top: 15%;
+  background-color: rgba(151, 146, 146, 0.87);
 }
-.cardline{
-    background-color: rgba(21, 21, 75, 0.966); 
-    height: 1rem;
-    width: 84rem;
+.chalidheading {
+  color: rgba(21, 21, 75, 0.966);
 }
-.lastcard{
-    height: 15rem;
-    width: 35rem;
-    border: solid none;
-    margin-left: 28rem;
-    background-color:  rgba(151, 146, 146, 0.87);
+.cardline {
+  background-color: rgba(21, 21, 75, 0.966);
+  height: 1rem;
+  width: 84rem;
 }
-.lastheading{
-    color:  rgba(21, 21, 75, 0.966);
-    text-align: center;
+.lastcard {
+  height: 15rem;
+  width: 35rem;
+  border: solid none;
+  margin-top: 8%;
+  /* align-items: center; */
+  margin-left: 28rem;
+  background-color: rgba(151, 146, 146, 0.87);
 }
-.lastpergraf{
-    text-align: center;
-    color: white;
+.lastheading {
+  color: rgba(21, 21, 75, 0.966);
+  text-align: center;
 }
-.linedivtwo{
-    border-top: 1px solid  rgba(21, 21, 75, 0.966); 
-    width: 10rem;
+.lastpergraf {
+  text-align: center;
+  color: white;
 }
-.lastbutton{
-    border: solid none;
-    display: flex;
-    width: 15rem;
-    margin-left: 20rem;
+.linedivtwo {
+  border-top: 1px solid rgba(21, 21, 75, 0.966);
+  width: 10rem;
 }
-.plasbutton:hover{
-    background-color: red;
+.lastbutton {
+  border: solid none;
+  display: flex;
+  width: 15rem;
+  margin-left: 20rem;
 }
-.plasbutton{
-    border: none;
-    width: 3rem;
-    height: 3rem;
-    background-color:  rgba(21, 21, 75, 0.966);
+.plasbutton:hover {
+  background-color: red;
 }
-.freebutton:hover{
-    background-color: rgba(21, 21, 75, 0.966);
+.plasbutton {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(21, 21, 75, 0.966);
 }
-.freebutton{
-    border: none;
-    width: 12rem;
-    height: 3rem;
-    background-color:  red;
-    color: white;
+.freebutton:hover {
+  background-color: rgba(21, 21, 75, 0.966);
 }
-.textdiv{
+.freebutton {
+  border: none;
+  width: 12rem;
+  height: 3rem;
+  background-color: red;
+  color: white;
+}
+/* .textdiv{
     background-color:  rgba(21, 21, 75, 0.966);
      border: solid none;
      width: 26rem; 
@@ -190,4 +195,4 @@
     width: 20rem; 
     height: 3rem; 
     margin-left: 3rem;
-}
+} */
